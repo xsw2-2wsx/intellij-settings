@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="space.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="commands" type="PLAIN_TEXT" />
+      <mapping ext="processor" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

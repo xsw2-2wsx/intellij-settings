@@ -1,0 +1,7 @@
+<templateSet group="Kotlin">
+  <template name="log" value="private val log: Logger = LogManager.getLogger()" description="Create a logger" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>

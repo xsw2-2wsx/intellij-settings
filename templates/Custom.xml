@@ -1,0 +1,15 @@
+<templateSet group="Custom">
+  <template name="rnn" value="Objects.requireNonNull($END$)" description="RequireNonNull" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="rnna" value="$content$" description="Require non null for all parameters" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="groovyScript(&quot;def params = _1.collect { 'm' + it.capitalize() + ' = Objects.requireNonNull(' + it + ');' }.join('\n'); params&quot;, methodParameters());" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
