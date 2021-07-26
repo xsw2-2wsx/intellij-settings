@@ -1,5 +1,6 @@
 <keymap version="1" name="Default for Windows copy" parent="$default">
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -96,6 +97,9 @@
   </action>
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
