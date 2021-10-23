@@ -25,10 +25,6 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -82,6 +78,9 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
@@ -90,6 +89,7 @@
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="PopupMenu-return">
     <keyboard-shortcut first-keystroke="enter" />
