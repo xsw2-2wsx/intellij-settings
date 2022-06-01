@@ -10,6 +10,7 @@
       <mapping pattern="commands" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping ext="schema" type="PLAIN_TEXT" />
       <mapping ext="ldap" type="PLAIN_TEXT" />
       <mapping ext="processor" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
