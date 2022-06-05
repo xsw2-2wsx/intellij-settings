@@ -15,8 +15,19 @@
       <mapping ext="ldap" type="PLAIN_TEXT" />
       <mapping ext="processor" type="PLAIN_TEXT" />
       <mapping ext="ldif" type="PLAIN_TEXT" />
+      <removed_mapping pattern="**spring-configuration-metadata.json" approved="true" type="JSON" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern="application-**.properties" approved="true" type="Properties" />
+      <removed_mapping pattern="application-**.y**ml" approved="true" type="YAML" />
+      <removed_mapping pattern="application.properties" approved="true" type="Properties" />
+      <removed_mapping pattern="application.yaml" approved="true" type="YAML" />
+      <removed_mapping pattern="application.yml" approved="true" type="YAML" />
+      <removed_mapping pattern="bootstrap-**.properties" approved="true" type="Properties" />
+      <removed_mapping pattern="bootstrap-**.y**ml" approved="true" type="YAML" />
+      <removed_mapping pattern="bootstrap.properties" approved="true" type="Properties" />
+      <removed_mapping pattern="bootstrap.yaml" approved="true" type="YAML" />
+      <removed_mapping pattern="bootstrap.yml" approved="true" type="YAML" />
     </extensionMap>
   </component>
 </application>
