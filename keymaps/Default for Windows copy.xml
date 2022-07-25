@@ -52,6 +52,7 @@
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="shift alt x" />
   </action>
+  <action id="Github.PullRequest.Diff.Comment.Create" />
   <action id="GuiDesigner.CreateListener" />
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="ctrl alt 9" />
@@ -104,6 +105,7 @@
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
   <action id="ShowRecentTests" />
+  <action id="Space.Review.CreateDiffComment" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
@@ -111,6 +113,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
