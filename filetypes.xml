@@ -1,34 +1,11 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="tmp" type="AUTO_DETECTED" />
-      <mapping pattern="plik" type="AUTO_DETECTED" />
-      <mapping pattern="exploit-url" type="AUTO_DETECTED" />
-      <mapping pattern="elastic-Dockerfile" type="Dockerfile" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="mp4" type="Native" />
       <mapping pattern="commands" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
-      <mapping ext="schema" type="PLAIN_TEXT" />
-      <mapping ext="ldap" type="PLAIN_TEXT" />
       <mapping ext="processor" type="PLAIN_TEXT" />
-      <mapping ext="ldif" type="PLAIN_TEXT" />
-      <removed_mapping pattern="**spring-configuration-metadata.json" approved="true" type="JSON" />
-      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
-      <removed_mapping ext="psd" approved="true" type="Image" />
-      <removed_mapping pattern="application-**.properties" approved="true" type="Properties" />
-      <removed_mapping pattern="application-**.y**ml" approved="true" type="YAML" />
-      <removed_mapping pattern="application.properties" approved="true" type="Properties" />
-      <removed_mapping pattern="application.yaml" approved="true" type="YAML" />
-      <removed_mapping pattern="application.yml" approved="true" type="YAML" />
-      <removed_mapping pattern="bootstrap-**.properties" approved="true" type="Properties" />
-      <removed_mapping pattern="bootstrap-**.y**ml" approved="true" type="YAML" />
-      <removed_mapping pattern="bootstrap.properties" approved="true" type="Properties" />
-      <removed_mapping pattern="bootstrap.yaml" approved="true" type="YAML" />
-      <removed_mapping pattern="bootstrap.yml" approved="true" type="YAML" />
     </extensionMap>
   </component>
 </application>
