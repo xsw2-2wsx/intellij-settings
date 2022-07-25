@@ -47,6 +47,9 @@
   <action id="FileChooser.TogglePathShowing">
     <keyboard-shortcut first-keystroke="ctrl alt 8" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -54,7 +57,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="Git.CompareWithBranch">
-    <keyboard-shortcut first-keystroke="ctrl alt released x" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Github.PullRequest.Diff.Comment.Create" />
   <action id="GuiDesigner.CreateListener" />
